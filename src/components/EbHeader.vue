@@ -27,7 +27,7 @@
                 </div>
                 <div v-if="!isLogin" class="flex flex-1 user">
                     <router-link class="login" tag="span" to="/login">登录</router-link>
-                     <router-link class="login" style="margin-right: 80px;" tag="span" to="/login">注册</router-link>
+                     <router-link class="register" style="margin-right: 80px;" tag="span" to="/login">注册</router-link>
                     <!--<span class="register">注册</span>-->
                 </div>
                 <div v-else class="flex flex-1 user">
